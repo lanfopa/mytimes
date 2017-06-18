@@ -1,5 +1,4 @@
 div {
-  border: 1px solid black;
   display: block;
 }
 
@@ -90,8 +89,9 @@ nav span {
 
 .article {
   font-family: Georgia;
-  font-size: 17px;
+  font-size: 15px;
   color: black;
+  margin-top: 16px;
 }
 
 .small-headline {
@@ -114,4 +114,20 @@ nav span {
 
 .three{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+.large-stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.large-stories .content {
+  height: 250px;
 }
